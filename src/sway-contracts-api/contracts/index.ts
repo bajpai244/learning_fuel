@@ -9,6 +9,8 @@
   Fuel-Core version: 0.31.0
 */
 
-export type { StoreAbi } from './StoreAbi';
+export type { StoreAbi } from "./StoreAbi";
+export type { PaymentAbi } from "./PaymentAbi";
 
-export { StoreAbi__factory } from './factories/StoreAbi__factory';
+export { StoreAbi__factory } from "./factories/StoreAbi__factory";
+export { PaymentAbi__factory } from "./factories/PaymentAbi__factory";

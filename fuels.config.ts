@@ -14,7 +14,7 @@ if (!PRIVATE_KEY) {
 }
 
 export default createConfig({
-  contracts: ["./store"],
+  contracts: ["./store", "./payment"],
   output: "./src/sway-contracts-api",
   providerUrl: TESTNET_NETWORK_URL,
   privateKey: PRIVATE_KEY,
